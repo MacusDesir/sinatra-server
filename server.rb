@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/frank-says' do
-	'It Works!'
+get '/' do
+	 send_file 'hello.txt'
 end
